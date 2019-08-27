@@ -1,0 +1,142 @@
+/*整体*/
+body div{
+    margin: 0;
+    padding: 0;
+}
+/*容器*/
+#container {
+    position: relative;
+    height: 500px;
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+}
+/*标题*/
+#tit {
+    height: 70px;
+    line-height: 70px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+/*规则*/
+#rule {
+    height: 20px;
+    line-height: 20px;
+    font-size: 20px;
+}
+/*显示区*/
+#screen {
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+#st,#ti {
+    margin-top: 1px;
+    height: 20px;
+    display: inline-block;
+}
+#message,#sc {
+    margin-top: 5px;
+    height: 20px;
+    display: inline-block;
+}
+#st {
+    margin-left: 240px;
+    background-color: white;
+    border: #BFBFBF solid 1.5px;
+    border-radius: 5px;
+}
+#ti {
+    position: absolute;
+    right: 250px;
+}
+#time {
+    height: 20px;
+    background-color: white;
+    border: #BFBFBF solid 1.5px;
+    padding: 0;
+    width: 35px;
+}
+#message {
+    margin-left: 240px;
+    height: 22px;
+    font-weight: bold;
+    background-color: white;
+    border: #BFBFBF solid 1.5px;
+    padding: 0;
+    width: 130px;
+}
+#sc {
+    position: absolute;
+    right: 250px;
+}
+#score {
+    height: 20px;
+    background-color: white;
+    border: #BFBFBF solid 1.5px;
+    padding: 0;
+    width: 35px;
+}
+/*游戏主体*/
+#game {
+    width: 234px;
+    height: 166px;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-top: #BFBFBF solid 2px;
+    border-bottom: #BFBFBF solid 2px;
+}
+/*按钮集*/
+#circleset {
+    word-spacing: 7px;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 0;
+    line-height: 20px;
+}
+.circle {
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: #BFBFBF solid 1px;
+    border-radius: 50%;
+}
+#to1_1,#to1_2,#to1_3,#to1_4,#to1_5,#to1_6,#to1_7,#to1_8,#to1_9,#to1_10 {
+    display: inline-block;
+}
+#to2_1,#to2_2,#to2_3,#to2_4,#to2_5,#to2_6,#to2_7,#to2_8,#to2_9,#to2_10 {
+    display: inline-block;
+}
+#to3_1,#to3_2,#to3_3,#to3_4,#to3_5,#to3_6,#to3_7,#to3_8,#to3_9,#to3_10 {
+    display: inline-block;
+}
+#to4_1,#to4_2,#to4_3,#to4_4,#to4_5,#to4_6,#to4_7,#to4_8,#to4_9,#to4_10 {
+    display: inline-block;
+}
+#to5_1,#to5_2,#to5_3,#to5_4,#to5_5,#to5_6,#to5_7,#to5_8,#to5_9,#to5_10 {
+    display: inline-block;
+}
+#to6_1,#to6_2,#to6_3,#to6_4,#to6_5,#to6_6,#to6_7,#to6_8,#to6_9,#to6_10 {
+    display: inline-block;
+}
+/*指导*/
+#instruct {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 15px;
+}
+li {
+    padding-left: 10px;
+}
+

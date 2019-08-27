@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>迷宫</title>
+        <link rel="stylesheet"  href="style.css" type="text/css">
+        <script src="sheer.js" ></script>
+    </head>
+    <body>
+        <!--容器-->
+        <div id="container">
+            <!--标题-->
+            <h1 id="tit">The Amazing Mouse Maze!</h1>
+            <!--规则-->
+            <div id="rule">
+                Move your mouse over the "S" to begin.<br/>
+            </div>
+            <!--显示区-->
+            <input id="screen" disabled="disabled">
+            <!--游戏主体-->
+            <div id="game">
+                <div class="block2 block" id="to2_1"></div>
+                <div class="block3 block" id="to3_1"></div>
+                <div class="block2 block" id="to2_2"></div>
+                <div class="block1 block" id="to1_1"></div>
+                <div class="block1 block" id="to1_2"></div>
+                <div class="block6 block" id="to6_1"></div>
+                <div class="block4 block" id="to4_1"></div>
+                <div class="block5 block" id="to5_1"></div>
+                <div class="block4 block" id="to4_2"></div>
+                <div id="start">S</div>
+                <div id="end">E</div>
+            </div>
+            <!--附加信息-->
+            <div id="extra">
+                <div class="wor">The object of this game is to guide the mouse cursor through the start area<br/>
+                    and get to the end area. Be sure to avoid the walls:<br/></div>
+                <div id="wall"></div>
+                <div class="wor">Good luck!</div>
+            </div>
+        </div>
+    </body>
+</html>

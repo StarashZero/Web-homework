@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/StarashZero/Web-homework/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StarashZero/Web-homework/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Web程序设计作业
+## 前言
+这里是关于中山大学数据科学与计算机学院软件工程专业Web2.0程序设计的相关代码，具体代码都已在github中
+## 引导（成品）
+1. [Recipe](recipe\html\index.html)
+2. [Movie Review](moviereview\tmnt.html)
+3. [Ring Menu](ringmenu\index.html)
+4. [Calculator](calculator\index.html)
+5. [Games-地鼠(button)](games\打地鼠(使用button)\index.html)
+6. [Games-地鼠(radio)](games\打地鼠(使用radio)\index.html)
+7. [Games-迷宫](games\迷宫\index.html)
+8. [Fifteen Puzzle](fifteenpuzzle\index.html)

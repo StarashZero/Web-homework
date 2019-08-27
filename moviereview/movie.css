@@ -1,0 +1,147 @@
+/*整页属性框架*/
+body {
+    background-image: url("img/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    word-spacing: 4.2px;/*为了边框更接近原图而适当扩大空格长度*/
+}
+/*顶部图片*/
+#bannar {
+    background-image: url("img/bannerbackground.png");
+    height: 50px;
+    background-repeat: repeat-x;
+}
+/*标题*/
+#heading {
+    font-size: 24pt;
+    font-weight: bold;
+}
+/*正文*/
+#bodying {
+    position: absolute;
+    margin-left: -400px;
+    left: 50%;
+    width: 800px;
+    border: 4px solid gray;
+}
+/*左侧评论区*/
+#reviews {
+    width: 550px;
+
+}
+/*评论区上部*/
+#rating {
+    height: 83px;
+    background-image: url("img/rottenbackground.png");
+    background-repeat: repeat-x;
+    text-align: left;
+    color: white;
+    line-height: 65pt;
+}
+/*图片内32%文字*/
+#rating .special {
+    font-weight: bold;
+    font-size: 48pt;
+    color: red;
+}
+/*评论区上部图片*/
+#rtbig {
+    float: left;
+}
+/*评论区左侧*/
+#left {
+    width: 50%;
+    float: left;
+}
+/*评论区右侧*/
+#right {
+    float: right;
+    width: 50%;
+}
+/*评论区左侧各评论基本属性*/
+#left .common {
+     width:94%;
+     margin-left: 4%;
+ }
+/*评论区右侧各评论基本属性*/
+#right .common {
+    width:94%;
+    margin-left: 2%;
+}
+/*评论区各评论基本属性*/
+.common {
+    padding-bottom: 3em;
+    letter-spacing: 0.12px;/*为了边框更接近原图而适当扩大字体长度*/
+}
+/*评论区各评论，去除magrin*/
+.comment {
+    margin: 0;
+    border: 2px solid gray;
+    background-color: #E1D697;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    overflow: hidden;
+}
+/*评论区各评论（首个），未去除magrin*/
+.commentf {
+    margin-top: 10px;
+}
+/*评论区各评论框内图片*/
+.boxicon {
+    float: left;
+    padding-right: 5px;
+}
+/*评论区各评论作者*/
+.reviewer {
+    text-align: left;
+}
+/*评论区各评论作者图片*/
+.reviewericon {
+    float: left;
+    padding-right: 5px;
+}
+/*评论区作者出版社*/
+.pulication {
+    font-style: italic;
+}
+/*概览区*/
+#overview {
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+
+}
+/*概览区信息*/
+#message {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial,sans-serif;
+}
+/*概览区信息框*/
+.term {
+    padding-bottom: 1em;
+}
+/*概览区信息title*/
+.termt {
+    font-weight: bold;
+}
+/*下方横条*/
+#bar {
+    clear: both;
+    padding: 5px;
+    background-color:#A2B964 ;
+    margin: 0;
+}
+/*W3C图片*/
+#w3c {
+    text-align: left;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}

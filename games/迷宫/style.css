@@ -1,0 +1,192 @@
+/*整体*/
+body div {
+    margin: 0;
+    padding: 0;
+}
+/*容器*/
+#container {
+    position: relative;
+    width: 910px;
+    height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+}
+/*标题*/
+#tit {
+    margin: 0;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+}
+/*规则*/
+#rule {
+    height: 34px;
+    font-size: 24px;
+    line-height: 34px;
+}
+/*显示区*/
+#screen {
+    width: 910px;
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    height: 34px;
+    font-size: 24px;
+    line-height: 34px;
+    background-color: white;
+    border: 0;
+}
+/*游戏主体*/
+#game {
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block1 {
+    height: 50%;
+    width: 30%;
+}
+
+.block2 {
+    height: 50px;
+    width: 30%;
+}
+
+.block3 {
+    height: 50px;
+    width: 40%;
+}
+
+.block4 {
+    height: 50px;
+    width: 40%;
+}
+
+.block5 {
+    height: 50px;
+    width: 20%;
+}
+.block6 {
+    height: 50%;
+    width: 20%;
+}
+
+#to2_1 {
+    border: black solid 1px;
+    border-right: 0;
+    border-bottom: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#to3_1 {
+    border: black solid 1px;
+    border-right: 0;
+    border-left: 0;
+    position: absolute;
+    left: 30%;
+    top: 0;
+}
+#to2_2 {
+    border: black solid 1px;
+    border-left: 0;
+    border-bottom: 0;
+    position: absolute;
+    left: 70%;
+    top: 0;
+}
+#to1_1 {
+    border: black solid 1px;
+    border-top: 0;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+#to1_2 {
+    border: black solid 1px;
+    border-top: 0;
+    position: absolute;
+    left: 349px;
+    top: 50px;
+}
+#to6_1 {
+    border: black solid 1px;
+    border-bottom: 0;
+    position: absolute;
+    left: 40%;
+    top: 100px;
+}
+#to4_1 {
+    border: black solid 1px;
+    border-right: 0;
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+#to5_1 {
+    border-bottom: black solid 1px;
+    position: absolute;
+    left: 40%;
+    top: 251px;
+}
+#to4_2 {
+    border: black solid 1px;
+    border-left: 0;
+    position: absolute;
+    left: 60%;
+    top: 250px;
+}
+.block {
+    background-color: #EEEEEE;
+}
+#start {
+    border: black solid 1px;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    left: 0;
+    bottom: 53px;
+    background-color: #83FC7F;
+}
+#end {
+    border: black solid 1px;
+    width: 48px;
+    height: 48px;
+    line-height: 42px;
+    font-size: 35px;
+    font-weight: bolder;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    background-color: #8684FF;
+}
+/*附加信息*/
+#extra {
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    height: 170px;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: left;
+}
+.wor {
+    margin-top: 15px;
+}
+#wall {
+    border: black solid 1px;
+    background-color: #EEEEEE;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 25px;
+}

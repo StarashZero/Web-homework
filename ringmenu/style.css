@@ -1,0 +1,229 @@
+/*整体布局*/
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/*at-plus-container，整体容器*/
+#at-plus-container {
+    position: relative;
+    height: 100%;
+    width:180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*bottom-positioner，参考点*/
+#bottom-positioner {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+/*触发前，大按钮（info-bar)*/
+#info-bar{
+    overflow: hidden;
+    position: absolute;
+    opacity: 0;
+    width: 26px;
+    height: 26px;
+    left: 77px;
+    bottom: 102px;
+    border-radius: 50%;
+    background-color: #7E7E7E;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+/*触发后，大按钮（info-bar)*/
+#button:hover #info-bar {
+    width: 130px;
+    height: 130px;
+    left: 25px;
+    bottom: 150px;
+    opacity: 1;
+    visibility: visible;
+}
+/*info*/
+.info {
+    width: 100%;
+    height: 100%;
+}
+/*info ul，按钮各元素*/
+.info ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+/*info-bar li，按钮各元素*/
+#info-bar li{
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+/*info-bar li img，按钮各元素的图片*/
+#info-bar li img{
+    vertical-align: middle;
+}
+/*info-bar li span，按钮各元素的文字*/
+#info-bar li span{
+    margin-left: 8px;
+}
+/*user*/
+.user {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+/*comment*/
+.comment {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+/*mine*/
+.mine {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #0AE49b;
+}
+/*control-ring-container，各小按钮容器*/
+#control-ring-container {
+    left: 0;
+    width: 180px;
+    height: 180px;
+    bottom: 20px;
+    position: absolute;
+    visibility: hidden;
+}
+/*button:hover #control-ring-container，触发后各小按钮容器*/
+#button:hover #control-ring-container {
+    visibility: visible;
+}
+/*control-ring li，各小按钮*/
+#control-ring li{
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #686868;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+/*button:hover #control-ring li，触发后各小按钮*/
+#button:hover #control-ring li{
+    opacity: 1;
+}
+/*button:hover #control-ring-container li:nth-child(1)*/
+#button:hover #control-ring-container li:nth-child(1) {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+/*control-ring-container li:nth-child(1)*/
+#control-ring-container li:nth-child(1) {
+    margin-top: 58px;
+    margin-left: 35px;
+    background-image: url("assets/images/nomask.png");
+}
+/*button:hover #control-ring-container li:nth-child(2)*/
+#button:hover #control-ring-container li:nth-child(2) {
+    margin-top: 60px;
+    margin-left: -40px;
+}
+/*control-ring-container li:nth-child(2)*/
+#control-ring-container li:nth-child(2) {
+    margin-top: 58px;
+    margin-left: 35px;
+    background-image: url("assets/images/history.png");
+}
+/*button:hover #control-ring-container li:nth-child(3)*/
+#button:hover #control-ring-container li:nth-child(3) {
+    margin-top: 100px;
+    margin-left: -25px;
+}
+/*control-ring-container li:nth-child(3)*/
+#control-ring-container li:nth-child(3) {
+    margin-top: 58px;
+    margin-left: 35px;
+    background-image: url("assets/images/message.png");
+}
+/*button:hover #control-ring-container li:nth-child(4)*/
+#button:hover #control-ring-container li:nth-child(4) {
+    margin-top: 120px;
+    margin-left: 10px;
+}
+/*control-ring-container li:nth-child(4)*/
+#control-ring-container li:nth-child(4) {
+    margin-top: 58px;
+    margin-left: 35px;
+    background-image: url("assets/images/setting.png");
+}
+/*button:hover #control-ring-container li:nth-child(5)*/
+#button:hover #control-ring-container li:nth-child(5) {
+    margin-top: 115px;
+    margin-left: 55px;
+}
+/*control-ring-container li:nth-child(5)*/
+#control-ring-container li:nth-child(5) {
+    margin-top: 58px;
+    margin-left: 35px;
+    background-image: url("assets/images/signout.png");
+}
+/*unread，未阅读数量*/
+.unread {
+    position: absolute;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #FF3731;
+    border-radius: 50%;
+    padding-top: 2px;
+    text-align: center;
+    left: 20px;
+    bottom: 15px;
+    box-sizing: border-box;
+}
+/*button，按钮*/
+#button {
+    width: 30px;
+    height: 30px;
+    margin-left: 75px;
+    margin-bottom: 100px;
+}
+/*apb*/
+.apb {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 77px;
+    bottom: 102px;
+    background-color: #989DD0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("assets/images/atplus_white.png");
+    background-size: 20px 15px;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+/*button:hover .apb*/
+#button:hover .apb {
+    width: 50px;
+    height: 50px;
+    background-color: #2F3BA2;
+    background-image: url("assets/images/atplus_green.png");
+    background-size: 40px 30px;
+    border-radius: 50%;
+    left: 65px;
+    bottom: 90px;
+}

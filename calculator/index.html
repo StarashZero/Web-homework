@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="cal.js"></script>
+    </head>
+    <body>
+        <!--容器-->
+        <div id="container">
+            <!--标题-->
+            <div id="tit">
+               <span>简单计算器</span>
+            </div>
+            <!--主题-->
+            <div id="content">
+                <!--显示框-->
+                <div id="display">
+                    <input id="screen" disabled="disabled">
+                </div>
+                <!--按钮集合-->
+                <div id="buttonset">
+                    <button type="button" id="seven" class="button" onclick="clicknum('7')">7</button>
+                    <button type="button" id="eight" class="button" onclick="clicknum('8')">8</button>
+                    <button type="button" id="nine" class="button" onclick="clicknum('9')">9</button>
+                    <button type="button" id="divs" class="button" onclick="clickope('/')">/</button>
+                    <button type="button" id="four" class="button" onclick="clicknum('4')">4</button>
+                    <button type="button"  id="five" class="button" onclick="clicknum('5')">5</button>
+                    <button type="button" id="six" class="button" onclick="clicknum('6')">6</button>
+                    <button type="button" id="mult" class="button" onclick="clickope('*')">*</button>
+                    <button type="button" id="one" class="button" onclick="clicknum('1')">1</button>
+                    <button type="button" id="two" class="button" onclick="clicknum('2')">2</button>
+                    <button type="button" id="three" class="button" onclick="clicknum('3')">3</button>
+                    <button type="button" id="sub" class="button" onclick="clickope('-')">-</button>
+                    <button type="button" id="zero" class="button" onclick="clicknum('0')">0</button>
+                    <button type="button" id="dot" class="button" onclick="clicknum('.')">.</button>
+                    <button type="button" id="dele" class="button" onclick="dele()">←</button>
+                    <button type="button" id="add" class="button" onclick="clickope('+')">+</button>
+                    <button type="button" id="brale" class="button" onclick="clicknum('(')">(</button>
+                    <button type="button" id="brari" class="button" onclick="clicknum(')')">)</button>
+                    <button type="button" id="clear" class="button" onclick="bfclear()">CE</button>
+                    <button type="button" id="equal" class="button" onclick="equal()">=</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

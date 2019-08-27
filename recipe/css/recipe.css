@@ -1,0 +1,52 @@
+
+            h1 {
+                color: #A4A400;
+                background-color:#F0F0F0;
+                font-family: "Century Gothic", Futura, Verdana,sans-serif;
+                text-align: center;
+                font-size:22pt;
+                text-decoration: underline;
+                font-weight: bold;
+                letter-spacing: 0.2em;
+                
+            }
+            h2 {
+                color: #A4A400;
+                background-color:#F0F0F0;
+                font-family: "Century Gothic", Futura, Verdana,sans-serif;
+                text-align: left;
+                font-size:18pt;
+                text-decoration: underline;
+                font-weight: normal;
+                letter-spacing: 0.2em;
+            }
+            body {
+                color: #404040;
+                background-color: white;
+                font-size: 11pt;
+                font-weight: normal;
+                font-family: Georgia, Garamond,serif;
+                background-attachment: fixed;
+                background-image: url(../img/silverware.jpg);
+
+            }
+            a {
+                color:#A4A400;
+                font-size: 11pt;
+                font-weight: normal;
+                font-family: Georgia, Garamond,serif;
+                border: 0;
+            }
+            blockquote {
+                background-color: #FFFFC8;
+                font-size: 11pt;
+                font-weight: normal;
+                font-family: Georgia, Garamond,serif;
+            }
+            ul {
+                font-size: 11pt;
+                font-weight: normal;
+                font-family: Georgia, Garamond,serif;
+                line-height: 15pt;
+                list-style-image: url(../img/pie_icon.gif)
+            }

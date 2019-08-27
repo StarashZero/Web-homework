@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>打地鼠</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="sheer.js"></script>
+    </head>
+    <body>
+        <!--容器-->
+        <div id="container">
+            <!--标题-->
+            <h1 id="tit">Whac-a-mole</h1>
+            <!--规则-->
+            <div id="rule">Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</div>
+            <!--显示部分-->
+            <div id="screen">
+                <button type="button" id="st">Start Game | Stop Game</button>
+                <div id="ti">Time: <input id="time" disabled="disabled"></div><br/>
+                <input id="message" disabled="disabled">
+                <div id="sc">Score: <input id="score" disabled="disabled"></div>
+            </div>
+            <!--游戏主体-->
+            <div id="game">
+                <!--按钮集-->
+                <div id="circleset">
+                    <button class="circle" id="to1_1" type="button"></button>
+                    <button class="circle" id="to1_2" type="button"></button>
+                    <button class="circle" id="to1_3" type="button"></button>
+                    <button class="circle" id="to1_4" type="button"></button>
+                    <button class="circle" id="to1_5" type="button"></button>
+                    <button class="circle" id="to1_6" type="button"></button>
+                    <button class="circle" id="to1_7" type="button"></button>
+                    <button class="circle" id="to1_8" type="button"></button>
+                    <button class="circle" id="to1_9" type="button"></button>
+                    <button class="circle" id="to1_10" type="button"></button><br/>
+                    <button class="circle" id="to2_1" type="button"></button>
+                    <button class="circle" id="to2_2" type="button"></button>
+                    <button class="circle" id="to2_3" type="button"></button>
+                    <button class="circle" id="to2_4" type="button"></button>
+                    <button class="circle" id="to2_5" type="button"></button>
+                    <button class="circle" id="to2_6" type="button"></button>
+                    <button class="circle" id="to2_7" type="button"></button>
+                    <button class="circle" id="to2_8" type="button"></button>
+                    <button class="circle" id="to2_9" type="button"></button>
+                    <button class="circle" id="to2_10" type="button"></button><br/>
+                    <button class="circle" id="to3_1" type="button"></button>
+                    <button class="circle" id="to3_2" type="button"></button>
+                    <button class="circle" id="to3_3" type="button"></button>
+                    <button class="circle" id="to3_4" type="button"></button>
+                    <button class="circle" id="to3_5" type="button"></button>
+                    <button class="circle" id="to3_6" type="button"></button>
+                    <button class="circle" id="to3_7" type="button"></button>
+                    <button class="circle" id="to3_8" type="button"></button>
+                    <button class="circle" id="to3_9" type="button"></button>
+                    <button class="circle" id="to3_10" type="button"></button><br/>
+                    <button class="circle" id="to4_1" type="button"></button>
+                    <button class="circle" id="to4_2" type="button"></button>
+                    <button class="circle" id="to4_3" type="button"></button>
+                    <button class="circle" id="to4_4" type="button"></button>
+                    <button class="circle" id="to4_5" type="button"></button>
+                    <button class="circle" id="to4_6" type="button"></button>
+                    <button class="circle" id="to4_7" type="button"></button>
+                    <button class="circle" id="to4_8" type="button"></button>
+                    <button class="circle" id="to4_9" type="button"></button>
+                    <button class="circle" id="to4_10" type="button"></button><br/>
+                    <button class="circle" id="to5_1" type="button"></button>
+                    <button class="circle" id="to5_2" type="button"></button>
+                    <button class="circle" id="to5_3" type="button"></button>
+                    <button class="circle" id="to5_4" type="button"></button>
+                    <button class="circle" id="to5_5" type="button"></button>
+                    <button class="circle" id="to5_6" type="button"></button>
+                    <button class="circle" id="to5_7" type="button"></button>
+                    <button class="circle" id="to5_8" type="button"></button>
+                    <button class="circle" id="to5_9" type="button"></button>
+                    <button class="circle" id="to5_10" type="button"></button><br/>
+                    <button class="circle" id="to6_1" type="button"></button>
+                    <button class="circle" id="to6_2" type="button"></button>
+                    <button class="circle" id="to6_3" type="button"></button>
+                    <button class="circle" id="to6_4" type="button"></button>
+                    <button class="circle" id="to6_5" type="button"></button>
+                    <button class="circle" id="to6_6" type="button"></button>
+                    <button class="circle" id="to6_7" type="button"></button>
+                    <button class="circle" id="to6_8" type="button"></button>
+                    <button class="circle" id="to6_9" type="button"></button>
+                    <button class="circle" id="to6_10" type="button"></button>
+                </div>
+            </div>
+            <!--指导-->
+            <div id="instruct">
+                <b>Instructions:</b>
+                <ol>
+                    <li>Click on the radio buttons(moles) as they are selected randomly by the computer.</li>
+                    <li>1 point per hit, minus 1 point per miss.</li>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
