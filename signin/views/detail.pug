@@ -1,0 +1,23 @@
+extends layout
+
+block content
+
+    div#container
+        div#detail 用户详情
+        div#username.message
+            div.property 用户名
+            div.data #{user.username}
+
+        div#sid.message
+            div.property 学号
+            div.data #{user.sid}
+
+        div#phone.message
+            div.property 手机号
+            div.data #{user.phone}
+
+        div#email.message
+            div.property 邮箱
+            div.data #{user.email}
+        a.signout(href='/signout') 退出
+    link(rel='stylesheet', href='/stylesheets/detail.css')

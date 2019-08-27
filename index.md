@@ -10,3 +10,6 @@
 6. [Games-地鼠(radio)](games\打地鼠(使用radio)\index.html)
 7. [Games-迷宫](games\迷宫\index.html)
 8. [Fifteen Puzzle](fifteenpuzzle\index.html)
+9. Sign Up(不可预览)    
+10. Asynchronous(不可预览)
+11. Sign in(不可预览)

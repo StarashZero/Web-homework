@@ -1,0 +1,21 @@
+extends layout
+
+block content
+    div#container
+        h1 用户登录
+        form(id='signin' method='post')
+            if error
+                div.error!= error
+            div.username
+                label(for='username') 用户名
+                input(id='username' name='username' value=user.username)
+                p.error
+            div.password
+                label(for='password') 密码
+                input(id='password' name='password' value=user.password type='password')
+                p.error
+            div.buttons
+                input.button.reset(type='reset' value='清除')
+                input.button.submit(type='submit' value='提交')
+                a.switch-signin-signup(href='/signup') 注册
+    link(rel='stylesheet', href='/stylesheets/style.css')

@@ -1,0 +1,117 @@
+/*注册页面设计*/
+
+/*容器*/
+#container{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    background-image: url("../images/background.jpg");
+    background-size: 100%;
+}
+
+/*标题*/
+h1 {
+    text-align: center;
+}
+
+/*表单*/
+form {
+    width: 80%;
+    margin: auto;
+}
+
+/*非报错内容*/
+form div:not(.error){
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+/*标签*/
+form label {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    padding-right: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+/*输入框*/
+form input{
+    width: 60%;
+    height: 30px;
+    font-size: 18px;
+}
+
+/*错误信息*/
+.error {
+    text-align: center;
+    color: #D01919;
+}
+
+form div.error {
+    margin: 10px 0px 20px 80px;
+    line-height: 24px;
+}
+
+form p.error{
+    text-align: center;
+    padding: 10px;
+    line-height: 24px;
+    margin-top: -24px;
+    padding-top: 0;
+}
+
+/*按钮*/
+div.buttons {
+    text-align: center;
+}
+
+form input.button{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    transition: all 0.2s;
+}
+
+
+.switch-signin-signup {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    line-height: 40px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border: none;
+    transition: all 0.2s;
+    background-color: yellow;
+}
+
+.switch-signin-signup:hover {
+    transform: scale(1.2,1.2);
+    z-index: 20
+}
+
+.button:hover {
+    transform: scale(1.2,1.2);
+    z-index: 20
+}
+
+.reset{
+    background-color: #D01919;
+}
+.submit {
+    background-color: greenyellow;
+}
